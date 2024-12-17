@@ -9,5 +9,27 @@ Installation Guide
 2. Create a virtual environment:
 To isolate your project dependencies, create a virtual environment with the following command:
 
-  ```bash
-    python -m venv .venv
+	``` bash
+   python -m venv .venv
+
+ 3. Activate the virtual environment:
+On Windows, run:
+
+	``` bash
+ 	.venv\Scripts\activate
+
+ On macOS/Linux, run:
+
+	``` bash
+	source .venv/bin/activate
+
+4. Install the required dependencies:
+Install the necessary packages listed in the requirements.txt file by running:
+
+	``` bash
+	pip install -r requirements.txt
+
+
+i did my best hihi 🤣🤣🤣🤣 i made like 10000000000 commits lmao
+
+

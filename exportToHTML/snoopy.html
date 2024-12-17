@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>snoopy</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.ln { color: #4b5059; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+snoopy</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">from PIL import Image</span>
+<a name="l2"><span class="ln">2    </span></a>
+<a name="l3"><span class="ln">3    </span></a><span class="s0"># Function to convert image to grayscale</span>
+<a name="l4"><span class="ln">4    </span></a><span class="s0">def grayscale_image(image_path):</span>
+<a name="l5"><span class="ln">5    </span></a>    <span class="s0">img = Image.open(image_path)</span>
+<a name="l6"><span class="ln">6    </span></a>    <span class="s0">img = img.convert(&quot;L&quot;)  # Convert to grayscale</span>
+<a name="l7"><span class="ln">7    </span></a>    <span class="s0">return img</span>
+<a name="l8"><span class="ln">8    </span></a>
+<a name="l9"><span class="ln">9    </span></a><span class="s0"># Function to map pixel intensity to ASCII characters</span>
+<a name="l10"><span class="ln">10   </span></a><span class="s0">def pixel_to_ascii(pixel_value):</span>
+<a name="l11"><span class="ln">11   </span></a>    <span class="s0">ascii_chars = [&quot;s&quot;, &quot;n&quot;, &quot;o&quot;, &quot;o&quot;, &quot;p&quot;, &quot;y&quot;]</span>
+<a name="l12"><span class="ln">12   </span></a>    <span class="s0">return ascii_chars[pixel_value // 25]</span>
+<a name="l13"><span class="ln">13   </span></a>
+<a name="l14"><span class="ln">14   </span></a><span class="s0"># Function to convert an image to ASCII art</span>
+<a name="l15"><span class="ln">15   </span></a><span class="s0">def image_to_ascii(image_path, new_width=80):</span>
+<a name="l16"><span class="ln">16   </span></a>    <span class="s0">img = grayscale_image(image_path)</span>
+<a name="l17"><span class="ln">17   </span></a>    <span class="s0">width, height = img.size</span>
+<a name="l18"><span class="ln">18   </span></a>    <span class="s0">aspect_ratio = height / width</span>
+<a name="l19"><span class="ln">19   </span></a>    <span class="s0">new_height = int(aspect_ratio * new_width)</span>
+<a name="l20"><span class="ln">20   </span></a>
+<a name="l21"><span class="ln">21   </span></a>    <span class="s0"># Resize the image</span>
+<a name="l22"><span class="ln">22   </span></a>    <span class="s0">img = img.resize((new_width, new_height))</span>
+<a name="l23"><span class="ln">23   </span></a>
+<a name="l24"><span class="ln">24   </span></a>    <span class="s0">ascii_str = &quot;&quot;</span>
+<a name="l25"><span class="ln">25   </span></a>    <span class="s0">for y in range(new_height):</span>
+<a name="l26"><span class="ln">26   </span></a>        <span class="s0">for x in range(new_width):</span>
+<a name="l27"><span class="ln">27   </span></a>            <span class="s0">pixel_value = img.getpixel((x, y))</span>
+<a name="l28"><span class="ln">28   </span></a>            <span class="s0">ascii_str += pixel_to_ascii(pixel_value)</span>
+<a name="l29"><span class="ln">29   </span></a>        <span class="s0">ascii_str += &quot;\n&quot;</span>
+<a name="l30"><span class="ln">30   </span></a>
+<a name="l31"><span class="ln">31   </span></a>    <span class="s0">return ascii_str</span>
+<a name="l32"><span class="ln">32   </span></a>
+<a name="l33"><span class="ln">33   </span></a><span class="s0"># Function to save ASCII art to a text file</span>
+<a name="l34"><span class="ln">34   </span></a><span class="s0">def save_ascii_art(ascii_art, filename=&quot;ascii_art.txt&quot;):</span>
+<a name="l35"><span class="ln">35   </span></a>    <span class="s0">with open(filename, &quot;w&quot;) as f:</span>
+<a name="l36"><span class="ln">36   </span></a>        <span class="s0">f.write(ascii_art)</span>
+<a name="l37"><span class="ln">37   </span></a>
+<a name="l38"><span class="ln">38   </span></a><span class="s0"># Main function to generate and save the ASCII art</span>
+<a name="l39"><span class="ln">39   </span></a><span class="s0">def main(image_path):</span>
+<a name="l40"><span class="ln">40   </span></a>    <span class="s0">ascii_art = image_to_ascii(image_path)</span>
+<a name="l41"><span class="ln">41   </span></a>    <span class="s0">save_ascii_art(ascii_art)</span>
+<a name="l42"><span class="ln">42   </span></a>    <span class="s0">print(&quot;ASCII art generated and saved to ascii_art.txt&quot;)</span>
+<a name="l43"><span class="ln">43   </span></a>
+<a name="l44"><span class="ln">44   </span></a><span class="s0"># Run the script</span>
+<a name="l45"><span class="ln">45   </span></a><span class="s0">if __name__ == &quot;__main__&quot;:</span>
+<a name="l46"><span class="ln">46   </span></a>    <span class="s0">image_path = r&quot;C:\Users\jamai\Downloads\snoopy13.jpg&quot;  # Replace with the path to your image</span>
+<a name="l47"><span class="ln">47   </span></a>    <span class="s0">main(image_path)</span>
+<a name="l48"><span class="ln">48   </span></a></pre>
+</body>
+</html>

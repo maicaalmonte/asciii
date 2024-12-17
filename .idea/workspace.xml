@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66f90fae-1436-4629-a042-ee7bf34b8bc7" name="Changes" comment="a">
+    <list default="true" id="66f90fae-1436-4629-a042-ee7bf34b8bc7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -27,41 +32,93 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "maicaalmonte"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maicaalmonte&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/maicaalmonte/ascii.git",
-    "accountId": "3cb74500-c7eb-4c0f-992d-3b4fefa67c44"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/maicaalmonte/ascii.git&quot;,
+    &quot;accountId&quot;: &quot;3cb74500-c7eb-4c0f-992d-3b4fefa67c44&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/TAYLOR.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/ascii 3.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/ascii stfu.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/ascii_art.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/ascii_output.txt" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/cat.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/gif ascii.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/Scripts/van gogh.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qBuH6ZPznQnZ0buPCgJcFLfiUf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.TAYLOR.executor": "Run",
-    "Python.ascii 2.executor": "Run",
-    "Python.ascii 3.executor": "Run",
-    "Python.ascii stfu.executor": "Run",
-    "Python.cat.executor": "Run",
-    "Python.snoopy.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ToolWindow.Run.ShowToolbar": "false",
-    "git-widget-placeholder": "maica",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.TAYLOR.executor&quot;: &quot;Run&quot;,
+    &quot;Python.all unicode.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ascii 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ascii 3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ascii stfu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gif ascii.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gif proj.executor&quot;: &quot;Run&quot;,
+    &quot;Python.more ascii.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new art.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snoopy 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.snoopy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.van gogh.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;maica&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jamai/PycharmProjects/ascii&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="ascii-char" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ascii" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.venv/Scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\jamai\PycharmProjects\ascii\.venv\Scripts\ascii-char.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.ascii-char" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,11 +143,31 @@
       <option name="project" value="LOCAL" />
       <updated>1734157140593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="m">
+      <option name="closed" value="true" />
+      <created>1734157451601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734157451601</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="a" />
-    <option name="LAST_COMMIT_MESSAGE" value="a" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/.venv/Scripts/ascii-char.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

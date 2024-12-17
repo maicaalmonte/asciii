@@ -7,7 +7,6 @@ Installation Guide
   git clone https://github.com/maicaalmonte/GRAPH-READING.git
   cd GRAPH-READING
 
-
  2. Create a virtual environment:
   To isolate your project dependencies, create a virtual environment with the following command:
 

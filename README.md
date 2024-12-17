@@ -3,8 +3,9 @@ To set up and run the ASCII art generation project using Python, follow these st
 Installation Guide
 1. Clone the repository (if it's hosted on GitHub or similar platform):
 
+  ```bash
   git clone https://github.com/maicaalmonte/GRAPH-READING.git
-cd GRAPH-READING
+  cd GRAPH-READING
 
 
  2. Create a virtual environment:
@@ -17,25 +18,29 @@ cd GRAPH-READING
 3. Activate the virtual environment:
 On Windows:
 
-```bash
+  ```bash
   .venv\Scripts\activate
+
 
 On macOS/Linux:
 
 ```bash
   source .venv/bin/activate
 
+
 4. Install the required dependencies:
 Install the necessary packages listed in the requirements.txt file (you'll need to create this file if it doesn't exist, or manually install dependencies):
-
 Create a requirements.txt file with the following content:
+
 ```bash
   Pillow
+
 
 Then, install the dependencies by running:
 
 ```bash
   pip install -r requirements.txt
+
 
 Alternatively, you can install the dependencies manually with:
 

@@ -11,20 +11,20 @@ Installation Guide
   To isolate your project dependencies, create a virtual environment with the following command:
 
     ```bash
-     python -m venv .venv
+   python -m venv .venv
 
 
 3. Activate the virtual environment:
 On Windows:
 
   ```bash
-  .venv\Scripts\activate
+ .venv\Scripts\activate
 
 
 On macOS/Linux:
 
 ```bash
-  source .venv/bin/activate
+ source .venv/bin/activate
 
 
 4. Install the required dependencies:
@@ -32,19 +32,19 @@ Install the necessary packages listed in the requirements.txt file (you'll need 
 Create a requirements.txt file with the following content:
 
 ```bash
-  Pillow
+Pillow
 
 
 Then, install the dependencies by running:
 
 ```bash
-  pip install -r requirements.txt
+ pip install -r requirements.txt
 
 
 Alternatively, you can install the dependencies manually with:
 
 ```bash
-  pip install Pillow
+pip install Pillow
 
 
 Project Usage

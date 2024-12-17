@@ -8,11 +8,11 @@ Installation Guide
     cd GRAPH-READING
 
 
-2. Create a virtual environment:
-To isolate your project dependencies, create a virtual environment with the following command:
+  2. Create a virtual environment:
+  To isolate your project dependencies, create a virtual environment with the following command:
 
-```bash
-  python -m venv .venv
+    ```bash
+      python -m venv .venv
 
 
 3. Activate the virtual environment:

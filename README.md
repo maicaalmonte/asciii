@@ -13,17 +13,17 @@ To isolate your project dependencies, create a virtual environment with the foll
    python -m venv .venv
 
  3. Activate the virtual environment:
-On Windows, run:
+ 4. On Windows, run:
 
 	``` bash
  	.venv\Scripts\activate
-
- On macOS/Linux, run:
-
-	``` bash
+ 
+ 5. On macOS/Linux, run:
+ 	
+  	``` bash
 	source .venv/bin/activate
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 Install the necessary packages listed in the requirements.txt file by running:
 
 	``` bash

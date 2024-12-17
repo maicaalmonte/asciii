@@ -10,7 +10,8 @@ Installation Guide
  2. Create a virtual environment:
   To isolate your project dependencies, create a virtual environment with the following command:
 
-   python -m venv .venv
+   ```bash
+python -m venv .venv
 
 
 

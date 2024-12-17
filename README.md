@@ -1,3 +1,5 @@
+#me just being artsy. lmao. im losing my mind. made an to this hundred times haha
+
 Installation and Execution Guide for the Image-to-ASCII Script
 Ensure Python is Installed: Make sure Python 3 is installed on your machine. If not, download and install it from python.org.
 

@@ -3,9 +3,9 @@ To set up and run the ASCII art generation project using Python, follow these st
 Installation Guide
 1. Clone the repository (if it's hosted on GitHub or similar platform):
 
-```bash
-  git clone https://github.com/maicaalmonte/GRAPH-READING.git
-  cd GRAPH-READING
+  ```bash
+    git clone https://github.com/maicaalmonte/GRAPH-READING.git
+    cd GRAPH-READING
 
 
 2. Create a virtual environment:
